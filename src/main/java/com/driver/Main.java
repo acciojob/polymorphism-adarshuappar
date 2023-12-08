@@ -1,21 +1,6 @@
 package com.driver;
 
-class Product {
-    // Task 3
-    public int product(int x, int y) {
-        return x * y;
-    }
-
-    // Task 4
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
-
-    // Task 5
-    public double product(double x, double y) {
-        return x * y;
-    }
-}
+// Main.java
 
 public class Main {
     public static void main(String[] args) {
@@ -33,5 +18,24 @@ public class Main {
         // Task 5
         double result3 = p.product(2.5, 3.0);
         System.out.println("Result of product(double x, double y): " + result3);
+    }
+}
+
+// Product.java
+
+public class Product {
+    // Task 3
+    public int product(int x, int y) {
+        return x * y;
+    }
+
+    // Task 4
+    public int product(int x, int y, int z) {
+        return x * y * z;
+    }
+
+    // Task 5
+    public double product(double x, double y) {
+        return x * y;
     }
 }
